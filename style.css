@@ -1,0 +1,44 @@
+body {
+
+    background-color: #efe7fa; /* Fallback color while image loads */
+    background-image: url('Gemini_Generated_Image_teduagteduagtedu.jpg'); /* Replace with your actual file name */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.profile-pic {
+    width: 150px;            /* Controls the small size of the picture */
+    height: 150px;           /* Must match the width to keep it a square before rounding */
+    border-radius: 50%;     /* Cuts the square image into a perfect circle */
+    object-fit: cover;      /* Crops the image smoothly so it doesn't look stretched */
+    border: 2px solid #fff; /* Adds a clean white border frame */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Gives it a subtle, sharp shadow */
+    display: block;
+    margin: 10px auto;      /* Centers it on the page */
+}
+.formgroup {
+    text-align: center;
+     /* Adds space between form elements */
+    /* Rounds the corners of the form group */                                                                                                     
+}
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    position: relative;
+    background-color: rgba(7, 62, 171, 0.264); /* Adds a semi-transparent background for better readability */
+    border-radius: 8px; /* Rounds the corners of the background */
+    padding:  20px;
+    border: 2px solid #34495e; /* Adds a subtle border to the heading */
+}
+h2 {
+    text-align: center;
+    color: #34495e;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
